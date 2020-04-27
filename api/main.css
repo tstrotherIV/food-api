@@ -1,3 +1,37 @@
-h1 {
-  color: red;
+section {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+}
+
+.foodList {
+  display: flex;
+}
+
+.box {
+  border: solid 1px red;
+  padding: 10px;
+}
+
+.foodName {
+  display: flex;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.foodItem {
+  display: flex;
+  flex-direction: column;
+}
+
+.foodCategory {
+  margin-top: 0%;
+  margin-bottom: 0%;
+  font-size: 15px;
+}
+
+.foodEthnicity {
+  margin-top: 0%;
+  margin-bottom: 0%;
+  font-size: 15px;
 }
